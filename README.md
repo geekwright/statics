@@ -1,5 +1,5 @@
-##statics
-a static content wrapper for XOOP
+## statics
+a static content wrapper for XOOPS
 
 #### Description
 
