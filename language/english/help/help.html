@@ -1,0 +1,24 @@
+<div id="help-template">
+    <h1 class="head">Help: Statics</h1>
+    <!-- -----Help Content ---------- -->
+
+    <h4>Description</h4>
+
+    <p>Statics is a module that provides a static content wrapper for XOOPS.
+
+    <p>Statics brings XOOPS access control to legacy content, and allows you to visually
+    integrate that content in your XOOPS system.</p>
+
+    <h4>Configuration</h4>
+    <p>You can configure the content directory and entry page. You can also control the visual integration with XOOPS.</p>
+    <ul>
+        <li><strong>Static Content Directory</strong> - Full directory path for the static HTML contents, including trailing "/"</li>
+        <li><strong>Default Page</strong> - Default page in static content directory, the file that will be displayed if no other is specified</li>
+        <li><strong>Supress Header</strong> - Set to "Yes" to supress display normal system header, footer, menus, blocks, etc. when accessing the static content</li>
+    </ul>
+
+    <h4>Notes</h4>
+    <p>You can rename the <em>statics</em> module directory to any legal module name. You can install multiple versions of <em>statics</em>, each with different directory names. No other changes are required to <em>clone</em> it.</p>
+    <p>With the default settings, statics will look in the <em>content</em> directory inside the statics module directory. You can change it to point any directory that your webserver can access.</p>
+    <p>There is also a single page wrapper script, <em>cloneme.php</em>, that allows a single page to be shown via a named php script. Copy the cloneme.php script to the desired name, and edit it to include your HTML.</p>
+</div>
